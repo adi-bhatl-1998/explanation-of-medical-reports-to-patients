@@ -7,6 +7,7 @@ although I would like to be able to input the report image itself to the llm , t
 will deploy it in the form of simple user interface that takes the input , and returns the output.
 
 functionality :
+
 1 the first functionality will be to input the patient text query  and receive the output from the llm
 2 able to input the report image itself to the llm
 3 Language translation just like how its enabled in Kissan gpt
