@@ -3,11 +3,14 @@ The aim of the project will be to create a model that can explain the medical re
 the doctors to a patient with as much ease as possible
 
 The plan is to test out multiple llm which are trained on medical data , create an agent type of interface to communicate with the patients query ,
-although I would like to be able to input the report image itself to the llm , the first functionality will be to input the patient text query 
-and receive the output from the llm . I beleive this kind of system can be deloyed for each doctor's where in it captures the doctors style 
-of treatment , like personalized doctor report explanation or report explanation based on each kind of tests whichever is more suitable . 
-
+although I would like to be able to input the report image itself to the llm , the first functionality will be to input the patient text query  and receive the output from the llm . I beleive this kind of system can be deloyed for each doctor's where in it captures the doctors style of treatment , like personalized doctor report explanation or report explanation based on each kind of tests whichever is more suitable . 
 will deploy it in the form of simple user interface that takes the input , and returns the output.
+
+functionality :
+1 the first functionality will be to input the patient text query  and receive the output from the llm
+2 able to input the report image itself to the llm
+3 Language translation just like how its enabled in Kissan gpt
+4 research about the real word deployement problems that can effect the adoption of such a model 
 
 Models under consideration:
 https://huggingface.co/medicalai/ClinicalBERT/discussions
